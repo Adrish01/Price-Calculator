@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Price Calculator</h2>
+        <div class="input-group">
+            <label for="unit">Unit (e.g., grams)</label>
+            <input type="number" id="unit" placeholder="e.g., 1000">
+        </div>
+        <div class="input-group">
+            <label for="price">Price of Unit (e.g., ₹)</label>
+            <input type="number" id="price" placeholder="e.g., 200.00">
+        </div>
+        <div class="input-group">
+            <label for="pricePerUnit">Price of One Unit (₹ per unit)</label>
+            <input type="number" id="pricePerUnit" readonly>
+        </div>
+        <div class="input-group">
+            <label for="quantity">Quantity Required (e.g., grams)</label>
+            <input type="number" id="quantity" placeholder="e.g., 200">
+        </div>
+        <div class="input-group">
+            <label for="totalPrice">Price of Your Product (₹)</label>
+            <input type="number" id="totalPrice" readonly>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
